@@ -1,1 +1,1 @@
-# top-image-slider
+# Image Slider
