@@ -209,4 +209,6 @@ window.addEventListener("load", function (event) {
   const appRoot = document.querySelector("#root");
   const { slider, setNextSlide } = createImageSlider(srcImages);
   appRoot.appendChild(slider);
+
+  setInterval(setNextSlide, 5000);
 });
